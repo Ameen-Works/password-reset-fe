@@ -95,6 +95,9 @@ const SignupForm = () => {
       <button type="reset" onClick={formik.handleReset}>
         Reset
       </button>
+      <button type="button" onClick={()=>{navigate("/login")}}>
+        Reset
+      </button>
     </form>
   );
 };
