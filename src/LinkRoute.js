@@ -27,7 +27,7 @@ const LinkRoute = () => {
       <form onSubmit={handleSubmit}>
         <label htmlFor="username">Enter your token:</label>
         <input
-          type="email"
+          type="text"
           id="username"
           name="username"
           value={username}
