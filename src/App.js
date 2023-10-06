@@ -6,6 +6,7 @@ import LoginForm from "./LoginForm";
 import Success from "./Success";
 import PasswordResetForm from "./PasswordResetForm";
 import PasswordReset from "./PasswordReset";
+import LinkRoute from "./LinkRoute";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         element={<PasswordResetForm />}
       ></Route>
       <Route path="/password-reset/:token" element={<PasswordReset />} />
+      <Route path="/linkRoute" element={<LinkRoute />} />
     </Routes>
   );
 }

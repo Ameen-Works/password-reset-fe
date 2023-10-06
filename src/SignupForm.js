@@ -98,6 +98,9 @@ const SignupForm = () => {
       <button type="login" onClick={()=>{navigate("/login")}}>
         Login
       </button>
+      <button type="login" onClick={()=>{navigate("/linkRoute")}}>
+        Route to Enter Password Reset String
+      </button>
     </form>
   );
 };
