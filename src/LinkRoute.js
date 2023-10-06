@@ -21,11 +21,11 @@ const LinkRoute = () => {
 
   return (
     <div>
-      <h2>Password Reset</h2>
+      <h2>Verify Token</h2>
       {resetMessage && <p className="success">{resetMessage}</p>}
       {error && <p className="error">{error}</p>}
       <form onSubmit={handleSubmit}>
-        <label htmlFor="username">Enter your email:</label>
+        <label htmlFor="username">Enter your token:</label>
         <input
           type="email"
           id="username"
@@ -34,7 +34,7 @@ const LinkRoute = () => {
           onChange={handleUsernameChange}
           required
         />
-        <button type="submit">Reset Password</button>
+        <button type="submit">Verify</button>
       </form>
     </div>
   );
